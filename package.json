@@ -9,6 +9,9 @@
     "dist",
     "README.md"
   ],
+  "bin": {
+    "mcp-randomuserme": "./dist/index.js"
+  },
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsup",
