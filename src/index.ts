@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
@@ -185,3 +187,14 @@ server.tool(
 
 const transport = new StdioServerTransport();
 await server.connect(transport);
+
+// Start the server
+const start = async () => {
+  const transport = new StdioServerTransport();
+  await server.connect(transport);
+  console.error("Randomuserme MCP server running on stdio");
+};
+
+start().catch((error) => {
+  console.error("Failed to start server:", error);
+});
