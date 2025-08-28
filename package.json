@@ -1,5 +1,5 @@
 {
-  "name": "@hugo-85/mcp-randomuserme",
+  "name": "mcp-randomuserme",
   "version": "1.0.0",
   "description": "An MCP server for randomuser.me",
   "main": "./dist/index.js",
@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hugo-85/mcp-randomuserme"
+    "url": "git+https://github.com/hugo-85/mcp-randomuserme.git"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.17.4",
