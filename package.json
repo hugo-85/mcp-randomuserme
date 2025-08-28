@@ -1,6 +1,6 @@
 {
   "name": "mcp-randomuserme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An MCP server for randomuser.me",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
