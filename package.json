@@ -1,0 +1,36 @@
+{
+  "name": "@hugo-85/mcp-randomuserme",
+  "version": "1.0.0",
+  "description": "An MCP server for randomuser.me",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "inspect": "npx @modelcontextprotocol/inspector node dist/index.js"
+  },
+  "author": "Hugo Margiotta",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "randomuser",
+    "randomuser.me"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugo-85/mcp-randomuserme"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.17.4",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}
