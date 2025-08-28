@@ -10,6 +10,7 @@
     "README.md"
   ],
   "scripts": {
+    "start": "node dist/index.js",
     "build": "tsup",
     "inspect": "npx @modelcontextprotocol/inspector node dist/index.js"
   },
